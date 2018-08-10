@@ -462,6 +462,13 @@ ul{
 .section3{
     width: 100%;
     position: relative;
+    overflow: hidden;
+    padding-bottom: 220px;
+}
+
+
+.inner_section3{
+    padding-bottom: 50px;
 }
 
 .section3_background{
@@ -483,6 +490,7 @@ ul{
     z-index: 100;
     position: relative;
     padding-top: 220px;
+    padding-bottom: 50px;
 
 }
 
@@ -494,6 +502,7 @@ ul{
 }
 
 .s4_txt_2ndtitle{
+    padding-bottom: 15px;
     font-weight: 600;
     color: black;
     font-size: 45px;
@@ -520,4 +529,63 @@ ul{
 
 .s4_button2{
     margin-left: 15px;
+}
+
+.sector5{
+    padding-top: 200px;
+}
+
+
+
+
+.sector5_background{
+    background-color: #2b79c6;
+    margin-top: 130px;
+    position: absolute;
+    z-index: 1;
+    right: -380px;
+}
+
+.sector5_background img{
+    width: 100%;
+    opacity: .4;
+}
+
+
+
+.s5_imgbox{
+    z-index: 100;
+    width: 100%;
+    position: absolute;
+    
+}
+
+s5_imgbox img{
+    width: 100%;
+}
+
+
+.playbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.469);
+    border-radius: 50%;
+}
+
+.playbutton a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
 }
