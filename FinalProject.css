@@ -591,7 +591,7 @@ ul{
     
 }
 
-s5_imgbox img{
+.s5_imgbox img{
     width: 100%;
 }
 
@@ -896,6 +896,7 @@ s5_imgbox img{
     background-position: center center;
     background-size: cover;
     overflow: hidden;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 
@@ -934,16 +935,15 @@ s5_imgbox img{
 .section7{
     width: 100%;
     position: relative;
+    padding-top: 50px;
+    padding-bottom: 250px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 
-.section7_inner{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 
 .sector9{
-    margin-top: 50px;
+    padding-top: 90px;
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
@@ -985,9 +985,9 @@ s5_imgbox img{
 
 .s9_mockup{
     overflow: hidden;
-    width: 100%;
+    width: 91%;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 92px;
 }
 
 
@@ -997,6 +997,400 @@ s5_imgbox img{
 }
 
 
+
+.sector9v2{
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 .s9_textbox_v2{
     text-align: left;
+}
+
+
+.s9_iconboxv2 i{
+    margin-right: 10px;
+    font-size: 40px;
+    color: rgb(164, 163, 163);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 85px;
+    border: 1px solid rgb(233, 232, 232);
+    border-radius: 50%;
+
+}
+
+
+.section8{
+    width: 100%;
+    position: relative;
+    margin-top: -90px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.container_nopaddingv2{
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.container_fluid_nopadding{
+    padding-left: 0;
+    padding-left: 0;
+}
+
+.col_nopadding{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.sector10{
+    width: 100%;
+}
+
+.s10_imgbox{
+    width: 100%;
+    overflow: hidden
+}
+
+.s10_imgbox img{
+    width: 100%;
+    transform: scale(1.2);
+}
+
+.col_nopaddingv2{
+    background-image: url(/ProiectFinalEnerEdAcademy/assets/asset11.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    
+   
+
+}
+
+.col_nopaddingv2_overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #080809;
+    opacity: .8;
+    position: absolute;
+}
+
+
+.col_nopaddingv2_inner{
+    padding: 45px;
+}
+
+
+.s10_textbox{
+    position: relative;
+
+}
+
+.s10txt_title{
+    font-size: 28px;
+    color: aqua;
+    font-weight: 600;
+}
+
+
+.s10txt_2ndtitle{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.s10_appointment_section{
+    width: 80%;
+    position: relative;
+}
+
+.s10_input_box{
+    width: 100%;
+}
+
+.input_box{
+    margin-top: 20px;
+}
+
+
+.input_box input{
+    border-radius: 2px;
+    height: 50px;
+    width: 90%;
+    background-color: transparent;
+}
+
+.input_box::placeholder{
+    color: white;
+    font-size: 15px;
+   
+}
+
+.form-row{
+    color: white;
+}
+
+input[type=text]:focus {
+    background-color: transparent;
+}
+
+
+
+.s10_input_button{
+    margin-top: 50px;
+    display: block;
+    transition: .2s ease-in-out;
+    
+}
+
+.s10_input_button:hover{
+    display: block;
+    margin-top: 45px;
+}
+
+.s10_input_button a{
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px 35px 13px 35px;
+    background-color: aqua;
+    color: white;
+    border-radius: 2px;
+    transition: .2s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.s10_input_button a:hover{
+    background-color: transparent;
+    color: aqua;
+    border: 1px solid aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section9{
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.section9_inner{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+.sector11{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.s11_imgbox{
+    width: 100%;
+    position: relative;
+}
+
+.s11_imgbox img{
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.s11_overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%; 
+    width: 100%;
+    height: 0;
+    background-color: rgb(80, 152, 187);
+    transition: .4s ease-in-out;
+    opacity: .7;
+}
+
+.s11_imgbox:hover .s11_overlay{
+    top: 0;
+    height: 100%;
+}
+
+.s11_overlay_content{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-duration: 1s;
+    transition-delay: .1s;
+    transition-timing-function: ease;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.s11_overlay_social a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    transition: .2s ease-in-out;
+}
+
+
+.s11_overlay_social a:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.s11_imgbox:hover .s11_overlay_content{
+    top: 80%;
+    left: 0;
+    transform: translate(0, -80%);
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.s11_img_desc{
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.s11_img_desc a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.s11_img_desc h6{
+    color: grey;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.section10{
+    width: 100%;
+    position: relative;
+    background-image: url(/ProiectFinalEnerEdAcademy/assets/asset8.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.section10_overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #080809;
+    opacity: .8;
+}
+
+
+
+.section10_inner{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+.s5inner_textboxv2{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+.sector12{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.s12_iconbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.s12_iconbox i{
+    font-size: 35px;
+    color: white;
+}
+
+
+.s12_iconbox_child{
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    color: white;
+    font-size:  22px;
+    font-weight: 500;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 9%;
+    transform: translate(-9%, -40%);
+}
+
+
+.s12_iconbox_desc{
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
 }
