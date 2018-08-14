@@ -25,7 +25,6 @@ ul{
 
 
 .main_header{
-    transform: skewY(0deg, 20deg) translate(30deg);
     width: 100%;
     background-color: #60C5E4;
 
@@ -51,14 +50,13 @@ ul{
 
 
 .left_triangle{
-    z-index: 1;
     position: absolute;
     width: 0;
     height: 0;
-    border-color: #60C5E4 transparent transparent transparent;
-    border-width: 45px 50px 100px 50px;
+    border-color: #60C5E4 #60C5E4 transparent transparent;
+    border-width: 23px 23px 23px 23px;
     border-style: solid;
-    left: -50.25px;
+    left: -46.25px;
     top: -1.07px;
 }
 
@@ -122,15 +120,14 @@ ul{
 
 
 .right_triangle{
-    z-index: 1;
     position: absolute;
     width: 0;
     height: 0;
-    border-color: #60C5E4 transparent transparent transparent;
-    border-width: 45px 50px 100px 50px;
+    border-color: #60C5E4 transparent transparent #60C5E4;
+    border-width: 23px 23px 23px 23px;
     border-style: solid;
-    right: -50px;
-    top: -1px;
+    right: -46px;
+    top: -2px;
 }
 
 
@@ -1393,4 +1390,597 @@ input[type=text]:focus {
     margin-top: 15px;
     color: white;
     font-size: 20px;
+}
+
+
+.section11{
+    width: 100%;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.sector13{
+    width: 100%;
+}
+
+
+.s13_title{
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.s13_icon i{
+    font-size: 30px;
+    color: aqua;
+}
+
+
+
+.s12_carousel_container{
+    margin-top: 10px;
+    padding: 30px;
+    width: 100%;
+    
+}
+
+
+.carousel_item_content{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.carousel_item_content_inner{
+    width: 100%;
+    border: 1px solid rgb(213, 213, 213);
+    padding: 30px;
+}
+
+.carousel_user_img{
+    position: absolute;
+    top: 0;
+}
+
+
+.carousel_user_img img{
+    width: 100%;
+}
+
+.carousel_text{
+    padding-top: 10px;
+    font-size: 14px;
+    color: rgb(194, 194, 194);
+}
+
+
+.carousel_user h6{
+    font-size: 13px;
+    color: black;
+}
+
+
+.carousel_control{
+    position: absolute;
+    top: 88%;
+    left: 68%;
+    right: 100px;
+    background-color: white;
+    z-index: 100;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(198, 196, 196);
+    opacity: 1;
+}
+
+
+
+.carousel_control_prev{
+    color: black;
+    font-size: 16px;
+}
+
+
+
+.carousel_control2{
+    opacity: 1;
+    position: absolute;
+    top: 88%;
+    left: 80%;
+    right: 100px;
+    background-color: white;
+    z-index: 100;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(198, 196, 196);
+}
+
+
+.carousel_control_next{
+    color: black;
+    font-size: 16px;
+}
+
+.collapse_section{
+    margin-top: 40px;
+}
+
+
+.section12{
+    background-image: url(/ProiectFinalEnerEdAcademy/assets/cta_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+    position: relative;
+    height: 30vh;
+}
+
+.section12_overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: .7;
+}
+
+.section12_image{
+    
+    top: -86px;
+    left: -50px;
+    width: 30%;
+    position: absolute;
+}
+
+.section12_image img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+
+.sector14{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.s14_title{
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    font-weight: 500;
+}
+
+.s14_title a{
+    color: #4791aa;
+    text-decoration: none;
+}
+
+
+.s14_desc{
+    padding-top: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+
+.s14_button{
+    margin-left: 50px;
+    padding-top: 50px;
+    right: 0;
+    display: block;
+    transition: .2s ease-in-out;
+    
+}
+
+.s14_button:hover{
+    display: block;
+    padding-top: 45px;
+}
+
+.s14_button a{
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px 35px 13px 35px;
+    background-color: aqua;
+    color: white;
+    border-radius: 2px;
+    transition: .2s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.s14_button a:hover{
+    background-color: transparent;
+    color: aqua;
+    border: 1px solid aqua;
+}
+
+
+
+.section13{
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.section13_inner{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sector15{
+    width: 100%;
+    position: relative;
+}
+
+.s15_imgbox{
+    width: 100%;
+}
+
+.s15_imgbox img{
+    width: 100%;
+}
+
+.s15_img_desc{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+}
+
+.s15_date{
+    margin-top: 23px;
+    width: 20%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    position: relative;
+
+}
+
+
+.s15_date h6{
+    color: white;
+    font-weight: 600;
+}
+
+.s15_triangle{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-width: 20px 30px 20px 30px;
+    border-color: transparent aqua transparent aqua;
+    top: 65%;
+    border-style: solid;
+}
+
+
+.s15_utilities{
+    
+    width: 80%;
+    padding: 20px;
+}
+
+.s15_utilities_title a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .2s ease-in-out;
+   
+}
+
+.s15_utilities_title a:hover{
+    color: aqua;
+}
+
+
+.s15_utilities_menu{
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.s15_utilities_menu li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+.favourites{
+    padding-left: 30px;
+    padding-right: 25px;
+}
+
+.s15_utilities_menu a{
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+}
+
+.s15_img_paragraph{
+    color: rgb(159, 159, 159);
+    font-size: 14px;
+
+}
+
+
+
+
+.s15_button{
+    padding-top: 20px;
+}
+
+.s15_button a{
+    
+    transition: .2s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+
+
+.s15_button a:hover{
+    color: aqua;
+}
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    position: relative;
+    background-color: #262833;
+    
+}
+
+
+.inner_footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sector16{
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+
+.s16_desc{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+    font-size: 14px;
+    color: #bec2c6;
+    padding-top: 20px;
+}
+
+
+.s16_buttons_list{
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+
+
+}
+
+
+.s16_middle_bttn{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.s16_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+.s16_button a{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+
+}
+
+.s16_button a:hover{
+    border: 1px solid aqua;
+    background-color: aqua;
+    padding: 100px 100px 100px 100px;
+}
+
+
+.sector17{
+    width: 100%;
+}
+
+.s17_list_title h6{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.s17_list{
+    padding-top: 20px;
+}
+
+.s17_list li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.s17_list a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #bec2c6;
+    transition: .2s ease-in-out;
+}
+
+.s17_list a:hover{
+    color: aqua;
+    
+}
+
+
+.s17_list i{
+    font-size: 12px;
+}
+
+
+.sector18{
+    width: 100%;
+}
+
+.s18_title{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.s18_desc{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+    font-size: 14px;
+    color: #bec2c6;
+    padding-top: 20px;
+}
+
+
+.s18_contact{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+    font-size: 14px;
+    color: #bec2c6;
+    padding-top: 20px;
+}
+
+
+.sector19{
+    width: 100%;
+}
+
+.s19_title{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.s19_desc{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+    font-size: 14px;
+    color: #bec2c6;
+    padding-top: 20px;
+}
+
+
+.s19_inputbox{
+    margin-top: 20px;
+}
+
+.s19_inputbox input{
+    border-radius: 5px;
+    height: 50px;
+    background-color: #353a44;
+    border: 1px solid #353a44;
+}
+
+.s19_subscribe_bttn{
+    margin-top: 50px;
+}
+
+.s19_subscribe_bttn{
+    transition: .2s ease-in-out;
+}
+
+.s19_subscribe_bttn a{ 
+    position: relative;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+    background-color: aqua;
+    color: white;
+    transition: .3s ease-in-out;
+    border: 1px solid transparent;
+}
+
+
+.s19_subscribe_bttn a:hover{
+    background-color: transparent;
+    color: aqua;
+    border: 1px solid aqua;
+}
+
+.s19_subscribe_bttn:hover{
+    margin-top: 45px;
+}
+
+.bottom_footer{
+    position: relative;
+    width: 100%;
+    background-color: #353a44;
+    
+}
+
+.bfooter_text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #bec2c6;
+}
+
+.bfooter_text a{
+    text-decoration: none;
+    color: aqua;
+}
+
+
+.bfooter_traingle1{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color:  transparent  #353a44 #353a44 transparent;
+    border-width: 22px 22px 22px 22px;
+    border-style: solid;
+    left: -43.25px;
+    bottom: 0;
+}
+
+.bfooter_traingle2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent #353a44 #353a44;
+    border-width: 22.5px 22.5px 22.5px 22.5px;
+    border-style: solid;
+    right: -45px;
+    bottom: 0;
 }
