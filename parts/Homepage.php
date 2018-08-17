@@ -3,13 +3,14 @@
 <head>
 
 		<link rel="stylesheet" type="text/css" href="/utilities/bootstrapcss/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="/ProiectFinalEnerEdAcademy/FinalProject.css">
+        <link rel="stylesheet" type="text/css" href="/ProiectFinalEnerEdAcademy/FinalProject.css">
+        <link rel="stylesheet" type="text/css" href="/ProiectFinalEnerEdAcademy/Responsive.css">
         <link rel="stylesheet" type="text/css" href="/utilities/fontawesome/fontawesome-all.min.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700,900" rel="stylesheet">
 
 
-	<title>  Final Project  </title>
+	<title>  Homepage  </title>
 </head>
 <body>
 
@@ -54,11 +55,11 @@
                     </div>
                 </div>   
                 <div class="container container_nopadding">
-                    <div class="secondary_header">
-                        <div class="logo_box">
-                        <a href="#"> <img src="/ProiectFinalEnerEdAcademy/assets/logo.png"> </a>
+                    <div class=" secondary_header">
+                        <div class=" logo_box">
+                        <a href="/ProiectFinalEnerEdAcademy/parts/Homepage.php"> <img src="/ProiectFinalEnerEdAcademy/assets/logo.png"> </a>
                         </div>
-                        <div class="right_list">
+                        <div class=" right_list">
                             <div class="list_item">
                                 <div class="list_item_icon">
                                     <i class="far fa-clock"></i>
@@ -72,7 +73,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="list_item">
+                            <div class="list_item list_item_margin">
                                 <div class="list_item_icon">
                                     <a href="$">  <i class="far fa-envelope"></i> </a>
                                 </div>
@@ -103,22 +104,55 @@
                 </div>    
             </div> 
         </div> 
-        <div class="inner_section1_bottom">
+        <div class="inner_section1_bottom" id="bottom_header">
             <div class="container-fluid">
                 <div class="container container_nopadding">
                     <div class="bottom_header">
                         <div class="sector3">
-                            <div class="s3_list">
-                                <ul class="s3_menu">
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown_bttn"> HOME  </a>
-                                    </li>
-                                    <li><a href="#"> SERVICES  </a></li>
-                                    <li><a href="#"> PAGES  </a></li>
-                                    <li><a href="#"> STORE  </a></li>
-                                    <li><a href="#"> NEWS  </a></li>
-                                    <li><a href="#"> CONTACT  </a></li>
-                                </ul>
+                            <div class="s3_burger_menu">
+                                <div class="burger_button"> 
+                                    <a href="#">  <i class="fas fa-bars"></i> </a> 
+                                </div>
+                            </div>
+
+
+                            <div class="s3_list">                             
+                                <div><a href="/ProiectFinalEnerEdAcademy/parts/Homepage.php"> HOME  </a></div>
+                                <div class="dropdown">
+                                    <a href="/ProiectFinalEnerEdAcademy/parts/Homepage.php" class="dropdown_bttn"> SERVICES  </a>
+                                    <div class="dropdown_content">
+                                            <a href="/ProiectFinalEnerEdAcademy/parts/OurService.php" style="border-top: 3px solid aqua;"> Our Service  </a>
+                                            <a href="/ProiectFinalEnerEdAcademy/parts/ServiceDetails.php"> Service Details  </a>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <a href="#" class="dropdown_bttn"> PAGE  </a>
+                                    <div class="dropdown_content">
+                                        <a href="/ProiectFinalEnerEdAcademy/parts/AboutUs.php" style="border-top: 3px solid aqua;"> About  </a>
+                                        <a href="/ProiectFinalEnerEdAcademy/parts/OurTeam.php"> Our Team  </a>
+                                        <a href="/ProiectFinalEnerEdAcademy/parts/ErrorPage.php"> Error Page  </a>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <a href="#" class="dropdown_bttn"> STORE  </a>
+                                    <div class="dropdown_content">
+                                        <a href="/ProiectFinalEnerEdAcademy/parts/ShopPage.php" style="border-top: 3px solid aqua;"> Shop page </a>
+                                        <a href="/ProiectFinalEnerEdAcademy/parts/SingleProduct.php"> Single Product  </a>
+                                        <a href="/ProiectFinalEnerEdAcademy/parts/ShoppingCart.php"> Shopping cart  </a>
+                                        <a href="/ProiectFinalEnerEdAcademy/parts/Checkout.php"> Checkout  </a>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <a href="#" class="dropdown_bttn"> NEWS  </a>
+                                    <div class="dropdown_content">
+                                         <a href="/ProiectFinalEnerEdAcademy/parts/OurBlog.php" style="border-top: 3px solid aqua;"> Our Blog </a>
+                                        <a href="/ProiectFinalEnerEdAcademy/parts/SinglePost.php"> Single Post  </a>
+                                        <a href="/ProiectFinalEnerEdAcademy/parts/FAQ.php"> FAQ  </a>            
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="/ProiectFinalEnerEdAcademy/parts/Contact.php"> CONTACT  </a>
+                                </div>
                             </div>
                             <div class="s3_input_box">
                                 <a href="#">  <i class="fas fa-search"></i>  </a>
@@ -126,6 +160,44 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="s3_burger_list">
+                <ul class="s3_burger_list_inner">
+                    <li> <a href="/ProiectFinalEnerEdAcademy/parts/Homepage.php"> HOME  </a></li>
+                    <li class="burger_menu2">
+                         <a href="#" class="burger_button"> SERVICES </i></a>  <a href="£">  <i class="fas fa-chevron-down"></i> </a>
+                     </li>
+                     <ul class="burger_menu2_list">
+                            <li> <a href="/ProiectFinalEnerEdAcademy/parts/OurService.php"> Our Service  </a>  </li>
+                            <li> <a href="/ProiectFinalEnerEdAcademy/parts/ServiceDetails.php"> Service Details  </a>  </li>
+                     </ul>
+                     <li class="burger_menu3" >
+                          <a href="#" class="burger_button"> PAGE </a>  <a href="£"><i class="fas fa-chevron-down"></i></a> 
+                     </li>
+                     <ul class="burger_menu3_list">
+                            <li> <a href="/ProiectFinalEnerEdAcademy/parts/AboutUs.php"> About  </a> </li>
+                            <li> <a href="/ProiectFinalEnerEdAcademy/parts/OurTeam.php"> Our Team  </a>  </li>
+                            <li> <a href="/ProiectFinalEnerEdAcademy/parts/ErrorPage.php"> Error Page  </a>  </li>
+                     </ul>
+                     <li class="burger_menu4">
+                          <a href="#"  class="burger_button"> STORE </a> <a href="£"><i class="fas fa-chevron-down"></i></a>
+                     </li>
+                     <ul class="burger_menu4_list">
+                            <li> <a href="/ProiectFinalEnerEdAcademy/parts/ShopPage.php"> Shop page </a> </li>
+                            <li> <a href="/ProiectFinalEnerEdAcademy/parts/SingleProduct.php"> Single Product  </a> </li>
+                            <li> <a href="/ProiectFinalEnerEdAcademy/parts/ShoppingCart.php"> Shopping cart  </a>  </li>
+                            <li> <a href="/ProiectFinalEnerEdAcademy/parts/Checkout.php"> Checkout  </a>  </li>
+                     </ul>
+                     <li class="burger_menu5" >
+                          <a href="#" class="burger_button"> NEWS  </a>  <a href="£"><i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <ul class="burger_menu5_list">
+                            <li> <a href="/ProiectFinalEnerEdAcademy/parts/OurBlog.php"> Our Blog </a> </li>
+                            <li> <a href="/ProiectFinalEnerEdAcademy/parts/SinglePost.php"> Single Post  </a>  </li>
+                            <li> <a href="/ProiectFinalEnerEdAcademy/parts/FAQ.php"> FAQ  </a>    </li>
+                     </ul>
+                     <li> <a href="/ProiectFinalEnerEdAcademy/parts/Contact.php"> CONTACT  </a> </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -192,9 +264,9 @@
             <div class="section3_background"> 
                  <img src="/ProiectFinalEnerEdAcademy/assets/asset9.png">
             </div>
-            <div class="container">
+            <div class="container container_nopadding">
                 <div class="row inner_section3">
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-12">
                         <div class="sector4">
                             <div class="s4_textbox">
                                 <div class="s4txt_title">
@@ -222,7 +294,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-12">
                          <div class="sector5_background"> 
                                 <img src="/ProiectFinalEnerEdAcademy/assets/asset8.jpg">
                           </div>
@@ -243,7 +315,7 @@
 
     <div class="section4">
         <div class="container-fluid">
-            <div class="container">
+            <div class="container container_nopadding">
                 <div class="row section4_inner">
                     <div class="col-12">
                         <div class="s4inner_textbox">
@@ -253,10 +325,11 @@
                             <i class="fas fa-users-cog"></i>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="sector7">
                             <div class="s7_imgbox">
-                                <img src="/ProiectFinalEnerEdAcademy/assets/asset2.jpg">            <div class="s7_overlay">
+                                <img src="/ProiectFinalEnerEdAcademy/assets/asset2.jpg">           
+                                 <div class="s7_overlay">
                                     
                                 </div>
                                 <div class="s7_overlay_content">
@@ -264,19 +337,20 @@
                                         Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmtempor inciddunt ut labore.
                                     </div>
                                     <div class="s7_overlay_button">
-                                        <a href="£">  READ MORE </a>
+                                        <a href="/ProiectFinalEnerEdAcademy/parts/ServiceDetails.php">  READ MORE </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="s7_img_desc">
-                                <a href="£"> Smart Phone Repair </a>
+                                <a href="/ProiectFinalEnerEdAcademy/parts/ServiceDetails.php"> Smart Phone Repair </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="sector7">
                             <div class="s7_imgbox">
-                                <img src="/ProiectFinalEnerEdAcademy/assets/asset4.jpg">            <div class="s7_overlay">
+                                <img src="/ProiectFinalEnerEdAcademy/assets/asset4.jpg">          
+                                  <div class="s7_overlay">
                                     
                                 </div>
                                 <div class="s7_overlay_content">
@@ -284,19 +358,20 @@
                                         Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmtempor inciddunt ut labore.
                                     </div>
                                     <div class="s7_overlay_button">
-                                        <a href="£">  READ MORE </a>
+                                        <a href="/ProiectFinalEnerEdAcademy/parts/ServiceDetails.php">  READ MORE </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="s7_img_desc">
-                                <a href="£"> Tablet & iPad Repair </a>
+                                <a href="/ProiectFinalEnerEdAcademy/parts/ServiceDetails.php"> Tablet & iPad Repair </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="sector7">
                             <div class="s7_imgbox">
-                                <img src="/ProiectFinalEnerEdAcademy/assets/asset6.jpg">            <div class="s7_overlay">
+                                <img src="/ProiectFinalEnerEdAcademy/assets/asset6.jpg">         
+                                   <div class="s7_overlay">
                                     
                                 </div>
                                 <div class="s7_overlay_content">
@@ -304,12 +379,12 @@
                                         Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmtempor inciddunt ut labore.
                                     </div>
                                     <div class="s7_overlay_button">
-                                        <a href="£">  READ MORE </a>
+                                        <a href="/ProiectFinalEnerEdAcademy/parts/ServiceDetails.php">  READ MORE </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="s7_img_desc">
-                                <a href="£"> Mac & Pc Repair </a>
+                                <a href="/ProiectFinalEnerEdAcademy/parts/ServiceDetails.php"> Mac & Pc Repair </a>
                             </div>
                         </div>
                     </div>
@@ -320,7 +395,7 @@
 
     <div class="section5">
         <div class="container-fluid">
-            <div class="container">
+            <div class="container container_nopadding">
                 <div class="row section5_inner">
                     <div class="col-12">
                         <div class="s5inner_textbox">
@@ -330,7 +405,7 @@
                             <i class="fas fa-users-cog"></i>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="sector8">
                             <div class="sector8_inner">
                                 <div class="s8_icon_box">
@@ -350,7 +425,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="sector8">
                             <div class="sector8_inner">
                                 <div class="s8_icon_box">
@@ -370,7 +445,7 @@
                             </div>
                         </div>
                     </div>
-                     <div class="col-4">
+                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="sector8">
                             <div class="sector8_inner">
                                 <div class="s8_icon_box">
@@ -390,7 +465,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="sector8">
                             <div class="sector8_inner">
                                 <div class="s8_icon_box">
@@ -410,7 +485,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="sector8">
                             <div class="sector8_inner">
                                 <div class="s8_icon_box">
@@ -430,7 +505,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="sector8">
                             <div class="sector8_inner">
                                 <div class="s8_icon_box">
@@ -458,9 +533,9 @@
 
     <div class="section6">
         <div class="container-fluid">
-            <div class="container">
+            <div class="container container_nopadding">
                 <div class="row section6_inner">
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="counter">
                             <div class="count">
                                 25
@@ -473,7 +548,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="counter">
                             <div class="count">
                                 1250
@@ -486,7 +561,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="counter">
                             <div class="count">
                                 150 
@@ -499,7 +574,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="counter">
                             <div class="count">
                                 3550
@@ -519,7 +594,7 @@
 
     <div class="section7">
         <div class="container-fluid">
-            <div class="container">
+            <div class="container container_nopadding">
                 <div class="row section7_inner">
                     <div class="col-12">
                         <div class="s5inner_textbox">
@@ -529,7 +604,7 @@
                             <i class="fas fa-users-cog"></i>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-12">
                         <div class="row">
                             <div class="col-12">
                                 <div class="sector9">
@@ -563,12 +638,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-12">
                         <div class="s9_mockup">
                             <img src="/ProiectFinalEnerEdAcademy/assets/iphone1.png">
                         </div>
                     </div>
-                     <div class="col-4">
+                     <div class="col-lg-4 col-12">
                         <div class="row">
                             <div class="col-12">
                                 <div class="sector9v2">
@@ -611,14 +686,12 @@
         <div class="container-fluid container_fluid_nopadding">
             <div class="container container_nopaddingv2">
                 <div class="row row_nopadding">
-                    <div class="col-6 col_nopadding">
-                        <div class="sector10">
-                            <div class="s10_imgbox">
-                                <img src="/ProiectFinalEnerEdAcademy/assets/asset10.jpg">
-                            </div>
+                    <div class="col-lg-6  col_nopadding">
+                     <div class="s10_imgbox">
+                            <img src="/ProiectFinalEnerEdAcademy/assets/asset10.jpg">
                         </div>
                     </div>
-                    <div class="col-6 col_nopaddingv2">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col_nopaddingv2">
                         <div class="col_nopaddingv2_overlay">
 
                         </div>
@@ -631,34 +704,38 @@
                                     Make a Schedule
                                 </div>
                             </div>
-                            <div class="s10_appointment_section">
-                                <div class="s10_input_box">
+                            <div class="row s10_appointment_section">
+                                <div class="col-lg-12 col-md-6 col-sm-12 s10_input_box">
                                     <form>
                                         <div class="form-row">
-                                        <div class="col-6 input_box">
+                                        <div class="col-lg-6 col-md-12 col-sm-12 input_box">
                                             <input type="text" class="form-control" placeholder="Your name">
                                         </div>
-                                        <div class="col-6 input_box">
+                                        <div class="col-lg-6 col-md-12 col-sm-12 input_box">
                                             <input type="text" class="form-control" placeholder="E-mail">
                                         </div>
-                                        <div class="col-6 input_box">
+                                        <div class="col-lg-6 col-md-12 col-sm-12 input_box">
                                             <input type="text" class="form-control" placeholder="Phone">
                                         </div>
-                                        <div class="col-6 input_box">
+                                        <div class="col-lg-6 col-md-12 col-sm-12 input_box">
                                             <input type="text" class="form-control" placeholder="Date">
                                         </div>
-                                        <div class="col-6 input_box">
+                                        <div class="col-lg-6 col-md-12 col-sm-12 input_box">
                                             <input type="text" class="form-control" placeholder="Time">
                                         </div>
-                                        <div class="col-6 input_box">
+                                        <div class="col-lg-6 col-md-12 col-sm-12 input_box">
                                             <input type="text" class="form-control" placeholder="Select Service">
                                         </div>
                                         </div>
                                     </form>
+                                    <div class="s10_input_button">
+                                        <a href="#"> APPOINTMENT </a>
                                     </div>
                                 </div>
-                                <div class="s10_input_button">
-                                    <a href="#"> APPOINTMENT </a>
+                                <div class="col-md-6">
+                                      <div class="s10_imgboxv2">
+                                         <img src="/ProiectFinalEnerEdAcademy/assets/asset10.jpg">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -670,7 +747,7 @@
 
     <div class="section9">
         <div class="container-fluid">
-            <div class="container section9_inner">
+            <div class="container section9_inner container_nopadding">
                 <div class="row">
                     <div class="col-12">
                         <div class="s5inner_textbox">
@@ -680,7 +757,7 @@
                             <i class="fas fa-users-cog"></i>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="sector11">
                             <div class="s11_imgbox">
                                 <img src="/ProiectFinalEnerEdAcademy/assets/asset1.jpg">           
@@ -705,7 +782,7 @@
                             </div>
                         </div>
                     </div>
-                      <div class="col-3">
+                      <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="sector11">
                             <div class="s11_imgbox">
                                 <img src="/ProiectFinalEnerEdAcademy/assets/asset3.jpg">            
@@ -730,7 +807,7 @@
                             </div>
                         </div>
                     </div>
-                      <div class="col-3">
+                      <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="sector11">
                             <div class="s11_imgbox">
                                 <img src="/ProiectFinalEnerEdAcademy/assets/asset5.jpg">          
@@ -755,7 +832,7 @@
                             </div>
                         </div>
                     </div>
-                      <div class="col-3">
+                      <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="sector11">
                             <div class="s11_imgbox">
                                 <img src="/ProiectFinalEnerEdAcademy/assets/asset7.jpg">          
@@ -791,7 +868,7 @@
             
         </div>
         <div class="container-fluid">
-            <div class="container">
+            <div class="container container_nopadding">
                 <div class="row section10_inner">
                     <div class="col-12">
                         <div class="s5inner_textboxv2">
@@ -801,7 +878,7 @@
                             <i class="fas fa-users-cog"></i>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="sector12">
                             <div class="s12_iconbox">
                                 <i class="fas fa-desktop"></i>
@@ -814,7 +891,7 @@
                             </div>
                         </div>
                     </div>
-                     <div class="col-3">
+                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="sector12">
                             <div class="s12_iconbox">
                                 <i class="fas fa-paper-plane"></i>
@@ -827,7 +904,7 @@
                             </div>
                         </div>
                     </div>
-                     <div class="col-3">
+                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="sector12">
                             <div class="s12_iconbox">
                                 <i class="fas fa-cogs"></i>
@@ -840,7 +917,7 @@
                             </div>
                         </div>
                     </div>
-                     <div class="col-3">
+                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="sector12">
                             <div class="s12_iconbox">
                                 <i class="fas fa-reply"></i>
@@ -860,9 +937,9 @@
 
     <div class="section11">
         <div class="container-fluid">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
+            <div class="container container_nopadding">
+                <div class="row section11_inner">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="sector13">
                             <div class="s13_textbox">
                                 <div class="s13_title">
@@ -944,7 +1021,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="sector13">
                             <div class="s13_textbox">
                                 <div class="s13_title">
@@ -1042,21 +1119,19 @@
             <img src="/ProiectFinalEnerEdAcademy/assets/cta_1.png">
         </div>
         <div class="container-fluid">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6 offset-2">
+            <div class="container container_nopadding">
+                <div class="row section12_inner">
+                    <div class="col-lg-10 col-md-10 col-sm-12">
                         <div class="sector14">
-                            <div class="s14_title">
-                                Need a <a href="£"> Computer </a> Repair?
+                            <div class="sector14_inner">
+                                <div class="s14_title">
+                                    Need a <a href="£"> Computer </a> Repair?
+                                </div>
+                                <div class="s14_desc">
+                                    Lorem ipsum dolor sit amet constur adipisicing elit, sed do eiusmtempor incid 
+                                    et dolore magna aliqu enim ad minim veniam quis nostru.
+                                </div>
                             </div>
-                            <div class="s14_desc">
-                                Lorem ipsum dolor sit amet constur adipisicing elit, sed do eiusmtempor incid 
-                                et dolore magna aliqu enim ad minim veniam quis nostru.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="sector14">
                             <div class="s14_button">
                                 <a href="#"> Contact Us  </a>
                             </div>
@@ -1070,7 +1145,7 @@
 
     <div class="section13">
         <div class="container-fluid">
-            <div class="container">
+            <div class="container container_nopadding">
                 <div class="row">
                     <div class="col-12">
                         <div class="section13_inner">
@@ -1082,7 +1157,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="sector15">
                             <div class="s15_imgbox">
                                 <img src="/ProiectFinalEnerEdAcademy/assets/news1.jpg">
@@ -1115,7 +1190,7 @@
                             </div>
                         </div>
                     </div>
-                     <div class="col-4">
+                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="sector15">
                             <div class="s15_imgbox">
                                 <img src="/ProiectFinalEnerEdAcademy/assets/news2.jpg">
@@ -1147,7 +1222,7 @@
                             </div>
                         </div>
                     </div>
-                     <div class="col-4">
+                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="sector15">
                             <div class="s15_imgbox">
                                 <img src="/ProiectFinalEnerEdAcademy/assets/news3.jpg">
@@ -1187,12 +1262,12 @@
 
     <div class="footer">
         <div class="container-fluid">
-            <div class="container">
+            <div class="container container_nopadding">
                 <div class="row inner_footer">
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="sector16">
                             <div class="s16_logo">
-                                <a href="#"> <img src="/ProiectFinalEnerEdAcademy/assets/logo.png">  </a> 
+                                <a href="#"> <img src="/ProiectFinalEnerEdAcademy/assets/asset10.png">  </a> 
                             </div>
                             <div class="s16_desc">
                                 Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercita tion ullam
@@ -1210,7 +1285,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-lg-2 col-md-6 col-sm-12">
                         <div class="sector17">
                             <div class="s17_list_title">
                                 <h6> Services Link  </h6>
@@ -1224,7 +1299,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="sector18">
                             <div class="s18_title">
                                 Contact Us
@@ -1240,7 +1315,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="sector19">
                             <div class="s19_title">
                                 NewsLetter
@@ -1296,3 +1371,4 @@
 
 </body>
 </html>
+

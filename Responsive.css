@@ -1,0 +1,302 @@
+@media (max-width: 1335px){
+    .left_triangle{
+        display: none;
+    }
+
+    .right_triangle{
+        display: none;
+    }
+
+
+    .s5_imgbox{
+        position: relative;
+        padding-bottom: 100px;
+    }
+
+    .section3{
+        padding-bottom: 100px;
+    }
+
+    .bfooter_traingle1{
+        display: none;
+    }
+
+    .bfooter_traingle2{
+        display: none;
+    }
+
+ 
+}
+
+
+@media(max-width: 1200px){
+    .sector5_background{
+        display: none;
+    }
+
+    .section12_image{
+        display: none;
+    }
+
+    .sector14_inner{
+        margin-left: 0;
+    }
+
+    .s28_cupon_entry{
+        flex-flow: column;
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .s28_cupon_button{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .s28_input{
+        width: 100%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 991px){
+
+
+
+    .inner_main_header{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .secondary_header{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .logo_box{
+        width: 200px;
+        margin: 0 auto;
+    }
+
+
+    .right_list{
+        padding-top: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .carousel_first_text{ 
+
+        top: -90px;
+    }
+
+
+    .carousel_second_text{
+
+        top: -67px;
+    }
+
+    .sector8{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .sector9{
+        justify-content: space-around;
+    }
+
+
+    .s9txt_title{
+        font-size: 25px;
+        color:black;
+        font-weight: 600;
+    }
+
+    .s9txt_desc{
+        font-size: 17px;
+    }
+
+    .s9_mockup{
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    .s10_imgbox{
+        display: none;
+    }
+
+    .s10_imgboxv2{
+        display: block;
+    }
+
+    
+    .s10_appointment_section{
+        width: 100%;
+    }
+
+    .section12_image{
+        display: none;
+    }
+
+    .sector14_inner{
+        margin-left: 0;
+    }
+
+    .s14_button{
+        margin-top: 30px;
+        margin-left: 0;
+       
+    }
+
+    .sector14{
+        align-content: initial;
+        align-items: initial;
+        flex-flow: column;
+    }
+
+    .sector18{
+        margin-top: 50px;
+    }
+
+    .sector19{
+        margin-top: 50px;
+    }
+
+    .sector21{
+        margin-top: 50px;
+    }
+
+    .sector23{
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+
+
+
+@media(max-width: 767px) {
+
+
+    .inner_main_header{
+        display: flex;
+        flex-flow: column nowrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sector1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .sector2{
+        width: 100%;
+        text-align: center;
+        display: flex;
+         justify-content: center;
+         padding-top: 5px;
+    }
+
+    .container_nopadding{
+        max-width: 100%;
+    }
+
+    .right_list{
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .list_item_margin{
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .s3_list{
+        display: none;
+    }
+
+    .s3_burger_menu{
+        display: block;
+    }
+
+
+    .section3{
+        padding-bottom: 30px;
+    }
+    
+    
+    .counter{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .s10_imgboxv2{
+        display: none;
+    }
+
+    .sector12{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sector17{
+        margin-top: 50px;
+    }
+    
+
+    .error_message{
+        font-size: 130px;
+    }
+
+    .s32_icon_desc a{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+@media(max-width: 397px){
+    .carousel_first_text{ 
+
+        top: -30px;
+    }
+
+
+    .carousel_second_text{
+
+        top: -17px;
+    }
+
+    .section15_titlebox{
+        flex-flow: column;
+    }
+
+    .section_path{
+        padding-top: 30px;
+    }
+
+}
