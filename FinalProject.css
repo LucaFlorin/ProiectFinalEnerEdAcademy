@@ -3811,3 +3811,29 @@ input[type=text]:focus {
     background-color: #19194f;
     border: .5px solid white;
 }
+
+
+
+
+.popup{
+    display: block;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    height: 100vh;
+    position: fixed;
+
+}
+
+.inner_popup{
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+
+
+}

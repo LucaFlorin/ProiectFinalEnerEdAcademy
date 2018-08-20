@@ -294,6 +294,8 @@
                             </div>
                         </div>
                     </div>
+
+                
                     <div class="col-lg-6 col-md-12">
                          <div class="sector5_background"> 
                                 <img src="/ProiectFinalEnerEdAcademy/assets/asset8.jpg">
@@ -302,11 +304,18 @@
                             <div class="s5_imgbox">
                                 <img src="/ProiectFinalEnerEdAcademy/assets/video_img.png">
                                 <div class="playbutton">
-                                    <a href="£">  <i class="fas fa-play"></i> </a>
+                                    <a href="">  <i class="fas fa-play"></i> </a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+             <div class="popup">
+                <div class="inner_popup">
+                     <iframe width="55%" height="55%"
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+                    </iframe>
                 </div>
             </div>
         </div>

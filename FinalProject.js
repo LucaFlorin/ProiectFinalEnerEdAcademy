@@ -57,5 +57,25 @@ $(document).ready(function(){
     });
 
 
+
+
+    $('.playbutton').click(function(){
+            $('.popup').fadeIn(500);             
+    });
+
+    $('.popup').click(function(){
+            $('.popup').fadeOut();
+    
+    })
+
+    
+
+    $('.playbutton').click(function(){
+        var popping = $('.inner_popup');
+        popping.animate({height: '300px', opacity: '1'}, "slow");
+        popping.animate({width: '300px', opacity: '1'}, "slow");
+    });
+
+
 });
 
