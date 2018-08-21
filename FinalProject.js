@@ -60,18 +60,16 @@ $(document).ready(function(){
 
 
     $('.playbutton').click(function(){
-            $('.popup').fadeIn(500);             
+            $('.popup2').fadeIn(500);             
     });
 
-    $('.popup').click(function(){
-            $('.popup').fadeOut();
+    $('.popup2').click(function(){
+            $('.popup2').fadeOut();
     
     })
 
-    
-
     $('.playbutton').click(function(){
-        var popping = $('.inner_popup');
+        var popping = $('.inner_popup2');
         popping.animate({height: '300px', opacity: '1'}, "slow");
         popping.animate({width: '300px', opacity: '1'}, "slow");
     });

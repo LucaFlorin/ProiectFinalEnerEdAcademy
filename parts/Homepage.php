@@ -311,8 +311,8 @@
                     </div>
                 </div>
             </div>
-             <div class="popup">
-                <div class="inner_popup">
+             <div class="popup2">
+                <div class="inner_popup2">
                      <iframe width="55%" height="55%"
                         src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
                     </iframe>

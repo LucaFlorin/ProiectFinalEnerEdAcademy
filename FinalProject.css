@@ -3815,8 +3815,8 @@ input[type=text]:focus {
 
 
 
-.popup{
-    display: block;
+.popup2{
+    display: none;
     background: rgba(0,0,0,0.8);
     width: 100%;
     z-index: 100;
@@ -3826,14 +3826,44 @@ input[type=text]:focus {
 
 }
 
-.inner_popup{
+.inner_popup2{
     background-color: white;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 80%;
+    height: 100%;
+
+
+}
+
+
+.popup{
+    display: none;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    height: 100%;
+    position: fixed;
+
+}
+
+
+
+
+.inner_popup img{
+    width: 100%;
+}
+
+.inner_popup{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
 
 
 }
