@@ -16,6 +16,7 @@
 
 
 
+
     <div class="section1">
         <div class="inner_section1_top">
             <div class="container-fluid ">
@@ -111,14 +112,14 @@
                         <div class="sector3">
                             <div class="s3_burger_menu">
                                 <div class="burger_button"> 
-                                    <a href="#">  <i class="fas fa-bars"></i> </a> 
+                                     <i class="fas fa-bars"></i> 
                                 </div>
                             </div>
 
 
                             <div class="s3_list">                             
                                 <div><a href="/ProiectFinalEnerEdAcademy/parts/Homepage.php"> HOME  </a></div>
-                                
+
                                 <div class="dropdown">
                                     <a href="/ProiectFinalEnerEdAcademy/parts/Homepage.php" class="dropdown_bttn"> SERVICES  </a>
                                     <div class="dropdown_content">
@@ -155,8 +156,20 @@
                                     <a href="/ProiectFinalEnerEdAcademy/parts/Contact.php"> CONTACT  </a>
                                 </div>
                             </div>
-                            <div class="s3_input_box">
-                                <a href="#">  <i class="fas fa-search"></i>  </a>
+                            <div class="s3_input_parent">
+                                <div class="s3_input_box">
+                                    <a href="#">  <i class="fas fa-search"></i>  </a>
+                                </div>
+                                 <div class="s3_input_click">
+                                    <div class="s3_input_click_inner">
+                                        <div class="s3_input_click_content">
+                                            <input type="text" placeholder="Search here...">
+                                        </div>
+                                        <div class="s3_input_click_bttn">
+                                             <i class="fas fa-search"></i> 
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -165,34 +178,34 @@
             <div class="s3_burger_list">
                 <ul class="s3_burger_list_inner">
                     <li> <a href="/ProiectFinalEnerEdAcademy/parts/Homepage.php"> HOME  </a></li>
-                    <li class="burger_menu2">
-                         <a href="#" class="burger_button"> SERVICES </i></a>  <a href="£">  <i class="fas fa-chevron-down"></i> </a>
-                     </li>
-                     <ul class="burger_menu2_list">
+                    <li class="burger_menu">
+                         <a href="#" class="burger_button"> SERVICES </i></a>    <i class="fas fa-chevron-down"></i> 
+                     </li></a>
+                     <ul class="burger_menu_list">
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/OurService.php"> Our Service  </a>  </li>
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/ServiceDetails.php"> Service Details  </a>  </li>
                      </ul>
-                     <li class="burger_menu3" >
-                          <a href="#" class="burger_button"> PAGE </a>  <a href="£"><i class="fas fa-chevron-down"></i></a> 
+                     <li class="burger_menu" >
+                          <a href="#" class="burger_button"> PAGE </a>  <i class="fas fa-chevron-down"></i>
                      </li>
-                     <ul class="burger_menu3_list">
+                     <ul class="burger_menu_list">
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/AboutUs.php"> About  </a> </li>
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/OurTeam.php"> Our Team  </a>  </li>
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/ErrorPage.php"> Error Page  </a>  </li>
                      </ul>
-                     <li class="burger_menu4">
-                          <a href="#"  class="burger_button"> STORE </a> <a href="£"><i class="fas fa-chevron-down"></i></a>
+                     <li class="burger_menu">
+                          <a href="#"  class="burger_button"> STORE </a> <i class="fas fa-chevron-down"></i></a></a>
                      </li>
-                     <ul class="burger_menu4_list">
+                     <ul class="burger_menu_list">
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/ShopPage.php"> Shop page </a> </li>
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/SingleProduct.php"> Single Product  </a> </li>
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/ShoppingCart.php"> Shopping cart  </a>  </li>
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/Checkout.php"> Checkout  </a>  </li>
                      </ul>
-                     <li class="burger_menu5" >
-                          <a href="#" class="burger_button"> NEWS  </a>  <a href="£"><i class="fas fa-chevron-down"></i></a>
+                     <li class="burger_menu" >
+                          <a href="#" class="burger_button"> NEWS  </a>  <i class="fas fa-chevron-down"></i></a></a>
                     </li>
-                    <ul class="burger_menu5_list">
+                    <ul class="burger_menu_list">
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/OurBlog.php"> Our Blog </a> </li>
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/SinglePost.php"> Single Post  </a>  </li>
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/FAQ.php"> FAQ  </a>    </li>
@@ -202,6 +215,10 @@
             </div>
         </div>
     </div>
+
+
+
+
 
 
     <div class="section2">
@@ -305,7 +322,7 @@
                             <div class="s5_imgbox">
                                 <img src="/ProiectFinalEnerEdAcademy/assets/video_img.png">
                                 <div class="playbutton">
-                                    <a href="">  <i class="fas fa-play"></i> </a>
+                                     <i class="fas fa-play"></i> 
                                 </div>
                             </div>
                         </div>
@@ -313,10 +330,15 @@
                 </div>
             </div>
              <div class="popup2">
-                <div class="inner_popup2">
-                     <iframe width="55%" height="55%"
-                        src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
-                    </iframe>
+                 <div class="popup2_inner">
+                    <div class="popup2_width">
+
+                    </div>
+                    <div class="popup2_height">
+                        <iframe width="95%" height="95%" class="video_box"
+                            src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+                        </iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1358,6 +1380,9 @@
             </div>
         </div>
     </div>
+
+
+    
 	
 
 

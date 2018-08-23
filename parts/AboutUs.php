@@ -75,10 +75,22 @@
                             <div class="s5_imgbox">
                                 <img src="/ProiectFinalEnerEdAcademy/assets/video_img.png">
                                 <div class="playbutton">
-                                    <a href="£">  <i class="fas fa-play"></i> </a>
+                                    <i class="fas fa-play"></i> 
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popup2">
+                 <div class="popup2_inner">
+                    <div class="popup2_width">
+
+                    </div>
+                    <div class="popup2_height">
+                        <iframe width="95%" height="95%" class="video_box"
+                            src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+                        </iframe>
                     </div>
                 </div>
             </div>

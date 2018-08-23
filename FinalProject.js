@@ -22,7 +22,7 @@ $(document).ready(function(){
     });
 
     $('.s11v2_button2').click(function(){
-        var imagine = $(this).parent().parent().prev().attr('src');
+        var imagine = $(this).parent().prev().prev().attr('src'); 
             $('.image_container').attr('src', imagine);
                 $('.popup').fadeIn(300);
 
@@ -38,7 +38,8 @@ $(document).ready(function(){
         $('.s3_burger_list').slideToggle(600);
     });
 
-    
+/*
+
     $('.burger_menu2').click(function(){
         $('.burger_menu2_list').slideToggle(600);
     });
@@ -56,7 +57,7 @@ $(document).ready(function(){
         $('.burger_menu5_list').slideToggle(600);
     });
 
-
+*/
 
 
     $('.playbutton').click(function(){
@@ -86,10 +87,29 @@ $(document).ready(function(){
                     $('.s3_input_click').animate({right: "350px", top:"300px"}, 300);
             });  */
 
-
-            $('.popup2_height').get(0).stopVideo();
         
 
+
+            $('.burger_menu').click(function(){
+                $('.burger_menu_list').hide();
+                    if($(this).hasClass('active_menu')){
+                        $(this).next().hide();   
+                        $(this).removeClass('active_menu');
+                        $('.burger_menu').find('i').css('cssText', 'transform:rotate(0deg); transition: .2s ease-in-out;')
+                        $(this).find('i').css('cssText', 'transform:rotate(0deg); transition: .2s ease-in-out;')
+                    }else{
+                        $(this).next().fadeIn();
+                        $('.burger_menu').removeClass('active_menu');
+                        $(this).addClass('active_menu');
+                        $('.burger_menu').find('i').css('cssText', 'transform:rotate(0deg); transition: .2s ease-in-out;')
+                        $(this).find('i').css('cssText', 'transform:rotate(180deg); transition: .2s ease-in-out;')
+                    }
+                       
+           
+            });
+
+
+            
 
 });
 

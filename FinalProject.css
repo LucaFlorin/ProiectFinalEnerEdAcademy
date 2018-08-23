@@ -350,7 +350,7 @@ ul{
     background-color: white;
 }
 
-.s3_input_click_bttn a{
+.s3_input_click_bttn i{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -420,7 +420,7 @@ ul{
     left: -240px;
     bottom: 110px;
     color: rgb(62, 164, 164);
-    font-size: 2.2vw;
+    font-size: 24px;
     font-weight: 600;
     opacity: 0;
     visibility: hidden;
@@ -456,8 +456,8 @@ ul{
 .carousel_second_text{
     position: absolute;
     left: 610px;
-    bottom: 50px;
-    font-size: 3.2vw;
+    bottom: 40px;
+    font-size: 50px;
     color: white;
     font-weight: 600;
     opacity: 0;
@@ -497,7 +497,7 @@ ul{
     left: 0;
     bottom: -120px;
     position: absolute;
-    font-size: 0.8vw;
+    font-size: 16px;
     color: white;
     font-weight: 500;
     opacity: 0;
@@ -524,7 +524,7 @@ ul{
     }
 
     to{
-        bottom: -10px;
+        bottom: -40px;
         opacity: 1;
         visibility: visible;
     }
@@ -577,7 +577,7 @@ ul{
     }
 
     to{
-        bottom: -60px;
+        bottom: -100px;
         opacity: 1;
         visibility: visible;
     }
@@ -735,7 +735,8 @@ ul{
     border-radius: 50%;
 }
 
-.playbutton a{
+.playbutton i{
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1973,7 +1974,7 @@ input[type=text]:focus {
     padding: 0;
     border-radius: 50%;
     background-color: transparent;
-    transition: .9s ease-in-out;
+    transition: .6s ease-in-out;
 
 }
 
@@ -2530,13 +2531,9 @@ input[type=text]:focus {
     background: rgba(0,0,0,0.8);
     width: 100%;
     z-index: 100;
-    top: 0;
     height: 100%;
     position: fixed;
-
 }
-
-
 
 
 .inner_popup img{
@@ -3378,7 +3375,7 @@ input[type=text]:focus {
 .s30_input input{
     width: 100%;
     padding: 10px;
-    color: black;
+    color: white;
     font-size: 13px;
     transition: .2s ease-in-out;
     
@@ -3735,6 +3732,10 @@ input[type=text]:focus {
 }
 
 
+.burger_menu i{
+    color: white;
+}
+
 .burger_menu2{
     position: relative;
 }
@@ -3760,6 +3761,51 @@ input[type=text]:focus {
     transition: .2s ease-in-out;
 }
 
+
+.burger_menu_list{
+    display: none;
+}
+
+.burger_menu_list li{
+    cursor: pointer;
+    background-color: white;
+    transition: .3s ease-in-out;
+    border-top: 1px solid gray;
+}
+
+.burger_menu_list li:hover{
+    background-color: aqua;
+    
+    
+}
+
+.burger_menu_list li:hover a{
+    color: black;
+}
+
+.burger_menu_list a{
+    padding-left: 50px;
+    font-weight: 700;
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+
+.burger_menu2 i{
+    color: white;
+}
+
+.burger_menu3 i{
+    color: white;
+}
+
+.burger_menu4 i{
+    color: white;
+}
+
+.burger_menu5 i{
+    color: white;
+}
 
 .burger_menu2_list{
     width: 100%;
@@ -4029,8 +4075,7 @@ input[type=text]:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
-    height: 100%;
+    width: 20%;
 
 
 }
