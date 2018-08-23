@@ -60,7 +60,10 @@ $(document).ready(function(){
 
 
     $('.playbutton').click(function(){
-            $('.popup2').fadeIn(500);             
+            $('.popup2').fadeIn(500);
+                $('.popup2_width').toggleClass('popup2_width2');
+                    $('.popup2_height').toggleClass('popup2_height2');
+                        $('.video_box').toggleClass('video_box2');    
     });
 
     $('.popup2').click(function(){
@@ -68,11 +71,24 @@ $(document).ready(function(){
     
     })
 
-    $('.playbutton').click(function(){
-        var popping = $('.inner_popup2');
-        popping.animate({height: '300px', opacity: '1'}, "slow");
-        popping.animate({width: '300px', opacity: '1'}, "slow");
+
+    $('.s3_input_box').click(function(){
+        $('.s3_input_click').toggleClass('s3_input_active');
+                 
+          /*  $('.s3_input_click').fadeIn();
+             $('.s3_input_click').animate({right: "175px", top:"237px"}, 400); */
+
+            
     });
+
+        /* $('.s3_input_box').click(function(){
+                $('.s3_input_click').fadeOut();
+                    $('.s3_input_click').animate({right: "350px", top:"300px"}, 300);
+            });  */
+
+
+            $('.popup2_height').get(0).stopVideo();
+        
 
 
 });
