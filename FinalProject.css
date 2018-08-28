@@ -223,7 +223,6 @@ ul{
     top: 0;
     z-index: 900;
     transition-duration: .5s;
-    transition-delay: .2s ;
 }
 
 .sector3{

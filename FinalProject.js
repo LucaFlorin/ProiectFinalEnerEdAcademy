@@ -109,6 +109,20 @@ $(document).ready(function(){
             });
 
 
+
+            $('#form_button').click(function(){
+                var name = $('#name').val('');
+                var email = $('#email').val();
+                var phone = $('#phone').val();
+                var subject = $('#subject').val();
+                var message = $('#message').val();
+       
+                alert('nume: ' +name+ '\n email:' +email+ '\n phone:' +phone+ '\n subject:' +subject+ '\n message:' +message ); 
+    
+       
+           });
+
+
             
 
 });
