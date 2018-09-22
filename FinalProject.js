@@ -14,7 +14,8 @@ $(document).ready(function(){
 
 
     $(window).on("scroll", function() {
-        if($(window).scrollTop() > 180) {
+        var wscroll  = $(window).scrollTop();
+        if( wscroll > $('.section2').offset().top - 100) {
             $(".inner_section1_bottom").addClass("header_active");
         } else {
            $(".inner_section1_bottom").removeClass("header_active");
@@ -74,7 +75,7 @@ $(document).ready(function(){
 
 
     $('.s3_input_box').click(function(){
-        $('.s3_input_click').toggleClass('s3_input_active');
+        $('.s3_input_click_inner').toggleClass('s3_input_active');
                  
           /*  $('.s3_input_click').fadeIn();
              $('.s3_input_click').animate({right: "175px", top:"237px"}, 400); */
@@ -120,6 +121,21 @@ $(document).ready(function(){
                 alert('nume: ' +name+ '\n email:' +email+ '\n phone:' +phone+ '\n subject:' +subject+ '\n message:' +message ); 
     
        
+           });
+
+
+           $('.sidenav').click(function(){
+                $(this).toggleClass('sidenav_active');
+                    $('.tooltip_bttn').addClass('tooltip_bttn_active');
+                        $('.sidenav_content').fadeIn('sidenav_content_active');
+                    
+           })
+
+
+           $('.sidenav_content').click(function(){
+               $('.sidenav_content').fadeOut();
+                    $('.tooltip_bttn').removeClass('tooltip_bttn_active');
+                    
            });
 
 

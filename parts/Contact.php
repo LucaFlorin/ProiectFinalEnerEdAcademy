@@ -111,7 +111,7 @@
                                                         <div class="s30_input4">   <input type="text" placeholder="Subject" id="subject"></div>
                                                 </div>
                                                 <div class="s30_commentboxv2">
-                                                        <div class="s30_input3">   <input type="text" placeholder="Message" id="message"> </div>
+                                                        <div class="s30_input3">   <textarea type="text" placeholder="Message" id="message"></textarea> </div>
                                                 </div>
                                                 <div class="s30_comment_buttonv2" id="form_button">
                                                     <a href="#"> SEND MESSAGE </a>

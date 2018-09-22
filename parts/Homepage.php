@@ -16,7 +16,6 @@
 
 
 
-
     <div class="section1">
         <div class="inner_section1_top">
             <div class="container-fluid ">
@@ -105,6 +104,7 @@
                 </div>    
             </div> 
         </div> 
+        
         <div class="inner_section1_bottom" id="bottom_header">
             <div class="container-fluid">
                 <div class="container container_nopadding">
@@ -156,6 +156,11 @@
                                     <a href="/ProiectFinalEnerEdAcademy/parts/Contact.php"> CONTACT  </a>
                                 </div>
                             </div>
+                            <div class="sidenav">
+                                    <div class="tooltip_bttn">
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
                             <div class="s3_input_parent">
                                 <div class="s3_input_box">
                                     <a href="#">  <i class="fas fa-search"></i>  </a>
@@ -166,7 +171,7 @@
                                             <input type="text" placeholder="Search here...">
                                         </div>
                                         <div class="s3_input_click_bttn">
-                                             <i class="fas fa-search"></i> 
+                                              <i class="fas fa-search"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -179,14 +184,14 @@
                 <ul class="s3_burger_list_inner">
                     <li> <a href="/ProiectFinalEnerEdAcademy/parts/Homepage.php"> HOME  </a></li>
                     <li class="burger_menu">
-                         <a href="#" class="burger_button"> SERVICES </i></a>    <i class="fas fa-chevron-down"></i> 
+                         <a href="#" class="burger_button"> SERVICES </i></a>  <a href="£"></a>  <i class="fas fa-chevron-down"></i> </a></a>
                      </li></a>
                      <ul class="burger_menu_list">
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/OurService.php"> Our Service  </a>  </li>
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/ServiceDetails.php"> Service Details  </a>  </li>
                      </ul>
                      <li class="burger_menu" >
-                          <a href="#" class="burger_button"> PAGE </a>  <i class="fas fa-chevron-down"></i>
+                          <a href="#" class="burger_button"> PAGE </a>  <a href="£"></a><i class="fas fa-chevron-down"></i></a></a> 
                      </li>
                      <ul class="burger_menu_list">
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/AboutUs.php"> About  </a> </li>
@@ -194,7 +199,7 @@
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/ErrorPage.php"> Error Page  </a>  </li>
                      </ul>
                      <li class="burger_menu">
-                          <a href="#"  class="burger_button"> STORE </a> <i class="fas fa-chevron-down"></i></a></a>
+                          <a href="#"  class="burger_button"> STORE </a> <a href="£"></a><i class="fas fa-chevron-down"></i></a></a>
                      </li>
                      <ul class="burger_menu_list">
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/ShopPage.php"> Shop page </a> </li>
@@ -203,7 +208,7 @@
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/Checkout.php"> Checkout  </a>  </li>
                      </ul>
                      <li class="burger_menu" >
-                          <a href="#" class="burger_button"> NEWS  </a>  <i class="fas fa-chevron-down"></i></a></a>
+                          <a href="#" class="burger_button"> NEWS  </a>  <a href="£"></a><i class="fas fa-chevron-down"></i></a></a>
                     </li>
                     <ul class="burger_menu_list">
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/OurBlog.php"> Our Blog </a> </li>
@@ -215,8 +220,6 @@
             </div>
         </div>
     </div>
-
-
 
 
 
@@ -322,7 +325,7 @@
                             <div class="s5_imgbox">
                                 <img src="/ProiectFinalEnerEdAcademy/assets/video_img.png">
                                 <div class="playbutton">
-                                     <i class="fas fa-play"></i> 
+                                    <a href="£" class="playbutton_inner">  <i class="fas fa-play"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -638,7 +641,7 @@
                     </div>
                     <div class="col-lg-4 col-12">
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-lg-12 col-md-6 col-12">
                                 <div class="sector9">
                                     <div class="s9_textbox">
                                         <div class="s9txt_title">
@@ -653,7 +656,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12">
+                            <div class="col-lg-12 col-md-6 col-12">
                                 <div class="sector9">
                                     <div class="s9_textbox">
                                         <div class="s9txt_title">
@@ -677,7 +680,7 @@
                     </div>
                      <div class="col-lg-4 col-12">
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-lg-12 col-md-6 col-12">
                                 <div class="sector9v2">
                                     <div class="s9_iconboxv2">
                                         <i class="fas fa-mobile-alt"></i>
@@ -692,7 +695,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12">
+                            <div class="col-lg-12 col-md-6 col-12">
                                 <div class="sector9v2">
                                     <div class="s9_iconboxv2">
                                         <i class="fas fa-mobile-alt"></i>
@@ -718,12 +721,12 @@
         <div class="container-fluid container_fluid_nopadding">
             <div class="container container_nopaddingv2">
                 <div class="row row_nopadding">
-                    <div class="col-lg-6  col_nopadding">
+                    <div class="col-lg-6  col_nopadding hidden_col">
                      <div class="s10_imgbox">
-                            <img src="/ProiectFinalEnerEdAcademy/assets/asset10.jpg">
+                            
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 col_nopaddingv2">
+                    <div class="col-lg col-md-12 col-sm-12 col_nopaddingv2">
                         <div class="col_nopaddingv2_overlay">
 
                         </div>
@@ -1165,7 +1168,7 @@
                                 </div>
                             </div>
                             <div class="s14_button">
-                                <a href="#"> Contact Us  </a>
+                                 <span> Contact Us  </span>  
                             </div>
                         </div>
                     </div>
@@ -1382,8 +1385,60 @@
     </div>
 
 
+         <div class="sidenav">
+            <div class="tooltip_bttn">
+                <i class="fas fa-cog"></i>
+            </div>
+        </div>
+        
+        <div class="sidenav_content">
+            <div class="sidenav_inner">
+                <div class="list_item">
+                    <div class="list_item_icon">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <div class="list_item_desc">
+                        <div class="list_item_text1">
+                            Opening Time
+                        </div>
+                        <div class="list_item_text2">
+                            Allday 9.00 - 18.00
+                        </div>
+                    </div>
+                </div>
+                <div class="list_item list_item_active">
+                    <div class="list_item_icon">
+                        <a href="$">  <i class="far fa-envelope"></i> </a>
+                    </div>
+                    <div class="list_item_desc">
+                        <div class="list_item_text1">
+                            Email Us
+                        </div>
+                        <div class="list_item_text2">
+                            info@example.com 
+                        </div>
+                    </div>
+                </div>
+                <div class="list_item">
+                    <div class="list_item_icon list_item_icon_phone">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="list_item_desc">
+                        <div class="list_item_text1">
+                            Call Us Now
+                        </div>
+                        <div class="list_item_text2">
+                                <a href="$">   +251-235-3256 </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     
 	
+
 
 
 

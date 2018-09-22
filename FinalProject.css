@@ -19,6 +19,7 @@ ul{
 .inner_section1_top{
     background-color: #F7F7F7;
     width: 100%;
+    overflow: hidden;
 }
 
 
@@ -214,6 +215,7 @@ ul{
 .inner_section1_bottom{
     width: 100%;
     background-color: #262833;
+
    
 }
 
@@ -222,7 +224,7 @@ ul{
     position: fixed;
     top: 0;
     z-index: 900;
-    transition-duration: .5s;
+
 }
 
 .sector3{
@@ -304,36 +306,36 @@ ul{
     flex-flow: row-reverse;
 }
 
-.s3_input_box a{
+.s3_input_box i{
     text-decoration: none;
     color: white;
+    cursor: pointer;
     font-size: 16px;
 }
 
 .s3_input_click{
     display: block;
     position: absolute;
-    transform: translate(-50%, 190%);
-    z-index: 100;
-    visibility: hidden;
-    opacity: 0; 
+    z-index: 300;
     transition: all 500ms ease-in-out;
 }
 
 
 .s3_input_active{
-    transform: translate(3%, 110%);
-    visibility: visible;
-    opacity: 1;
-   
-
+    transform: translate(3%, 110%) !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 
 .s3_input_click_inner{
+    position: absolute;
     display: flex;
+    transform: translate(-100%, 350%);
     flex-flow: row nowrap;
     align-content: center;
     align-items: center;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .s3_input_click_content input{
@@ -359,6 +361,7 @@ ul{
     text-decoration: none;
     transition: .2s ease-in-out;
     color: black;
+    cursor: pointer;
 
 }
 
@@ -596,7 +599,6 @@ ul{
 }
 
 .section3_background{
-    z-index: 1;
     left: -150px;
     position: absolute;
     width: 45%;
@@ -611,10 +613,8 @@ ul{
 .sector4{
     height: 100%;
     width: 100%;
-    z-index: 100;
-    position: relative;
-    padding-top: 220px;
-    padding-bottom: 50px;
+    padding-top: 200px;
+    padding-bottom: 100px;
 
 }
 
@@ -1255,6 +1255,8 @@ ul{
 .s10_appointment_section{
     width: 80%;
     position: relative;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .s10_input_box{
@@ -1298,7 +1300,6 @@ input[type=text]:focus {
 
 .s10_input_button:hover{
     display: block;
-    margin-top: 45px;
 }
 
 .s10_input_button a{
@@ -1746,16 +1747,15 @@ input[type=text]:focus {
     right: 0;
     display: block;
     transition: .2s ease-in-out;
+    cursor: pointer;
     
 }
 
 .s14_button:hover{
-    display: block;
-    bottom: 10px;
+    margin-bottom: 10px;
 }
 
-.s14_button a{
-    position: relative;
+.s14_button span{
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -1767,7 +1767,7 @@ input[type=text]:focus {
     border: 1px solid transparent;
 }
 
-.s14_button a:hover{
+.s14_button span:hover{
     background-color: transparent;
     color: aqua;
     border: 1px solid aqua;
@@ -3374,7 +3374,7 @@ input[type=text]:focus {
 .s30_input input{
     width: 100%;
     padding: 10px;
-    color: white;
+    color: gray;
     font-size: 13px;
     transition: .2s ease-in-out;
     
@@ -3611,7 +3611,7 @@ input[type=text]:focus {
 .s30_input4 input{
     width: 100%;
     padding: 10px;
-    color: black;
+    color: gray;
     font-size: 13px;
     transition: .2s ease-in-out;
     
@@ -3653,7 +3653,7 @@ input[type=text]:focus {
     margin-top: 25px;
 }
 
-.s30_commentboxv2 input{
+.s30_commentboxv2 textarea{
     transition: .2s ease-in-out;
     width: 100%;
     height: 150px;
@@ -4077,4 +4077,95 @@ input[type=text]:focus {
     width: 20%;
 
 
+}
+
+
+.sidenav{
+    display: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .5s ease-in-out;
+    z-index: 400;
+}
+
+
+
+.tooltip_bttn i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    
+}
+
+
+.tooltip_bttn_active i{
+    transform: rotate(180deg);
+}
+
+.sidenav_content{
+    padding: 30px;
+    background-color: white;
+    display: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+
+
+}
+
+
+.sidenav_inner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.sidenav_content_active{
+    position: fixed;
+    z-index: 200;
+    background-color: white;
+    display: block;
+}
+
+.list_item_active{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.hidden_col{
+    background-image: url(/ProiectFinalEnerEdAcademy/assets/asset10.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+ 
+}
+
+.s10_appointment_section{
+    width: 100%;
+}
+
+.s10_textbox{
+    text-align: center;
 }
