@@ -14,7 +14,7 @@
 </head>
 <body>
 
-
+    
 
     <div class="section1">
         <div class="inner_section1_top">
@@ -163,7 +163,7 @@
                                 </div>
                             <div class="s3_input_parent">
                                 <div class="s3_input_box">
-                                    <a href="#">  <i class="fas fa-search"></i>  </a>
+                                     <i class="fas fa-search"></i> 
                                 </div>
                                  <div class="s3_input_click">
                                     <div class="s3_input_click_inner">
@@ -184,14 +184,14 @@
                 <ul class="s3_burger_list_inner">
                     <li> <a href="/ProiectFinalEnerEdAcademy/parts/Homepage.php"> HOME  </a></li>
                     <li class="burger_menu">
-                         <a href="#" class="burger_button"> SERVICES </i></a>  <a href="£"></a>  <i class="fas fa-chevron-down"></i> </a></a>
-                     </li></a>
+                         <a href="#" class="burger_button"> SERVICES </i></a>  <a href="£">  <i class="fas fa-chevron-down"></i> </a>
+                     </li>
                      <ul class="burger_menu_list">
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/OurService.php"> Our Service  </a>  </li>
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/ServiceDetails.php"> Service Details  </a>  </li>
                      </ul>
                      <li class="burger_menu" >
-                          <a href="#" class="burger_button"> PAGE </a>  <a href="£"></a><i class="fas fa-chevron-down"></i></a></a> 
+                          <a href="#" class="burger_button"> PAGE </a>  <a href="£"><i class="fas fa-chevron-down"></i></a>
                      </li>
                      <ul class="burger_menu_list">
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/AboutUs.php"> About  </a> </li>
@@ -199,7 +199,7 @@
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/ErrorPage.php"> Error Page  </a>  </li>
                      </ul>
                      <li class="burger_menu">
-                          <a href="#"  class="burger_button"> STORE </a> <a href="£"></a><i class="fas fa-chevron-down"></i></a></a>
+                          <a href="#"  class="burger_button"> STORE </a> <a href="£"><i class="fas fa-chevron-down"></i></a>
                      </li>
                      <ul class="burger_menu_list">
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/ShopPage.php"> Shop page </a> </li>
@@ -208,7 +208,7 @@
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/Checkout.php"> Checkout  </a>  </li>
                      </ul>
                      <li class="burger_menu" >
-                          <a href="#" class="burger_button"> NEWS  </a>  <a href="£"></a><i class="fas fa-chevron-down"></i></a></a>
+                          <a href="#" class="burger_button"> NEWS  </a>  <a href="£"><i class="fas fa-chevron-down"></i></a>
                     </li>
                     <ul class="burger_menu_list">
                             <li> <a href="/ProiectFinalEnerEdAcademy/parts/OurBlog.php"> Our Blog </a> </li>
@@ -239,7 +239,7 @@
                                      Laptop & Computer
                                 </div>
                                 <div class="carousel_third_text animation_text3">
-                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt ut labore et dolore magna aliqua dolore magna aliqua .
+                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                                 </div>
                                 <div class="carousel_button animation_text4">
                                     <a href="#"> PURCHASE NOW </a>
@@ -260,7 +260,7 @@
                                      Laptop & Computer
                                 </div>
                                 <div class="carousel_third_text animation_text3">
-                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt ut labore et dolore magna aliqua dolore magna aliqua .
+                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                                 </div>
                                 <div class="carousel_button animation_text4">
                                     <a href="#"> PURCHASE NOW </a>
@@ -325,7 +325,7 @@
                             <div class="s5_imgbox">
                                 <img src="/ProiectFinalEnerEdAcademy/assets/video_img.png">
                                 <div class="playbutton">
-                                    <a href="£" class="playbutton_inner">  <i class="fas fa-play"></i> </a>
+                                     <i class="fas fa-play"></i> 
                                 </div>
                             </div>
                         </div>
@@ -740,7 +740,7 @@
                                 </div>
                             </div>
                             <div class="row s10_appointment_section">
-                                <div class="col-lg-12 col-md-6 col-sm-12 s10_input_box">
+                                <div class="col-lg-12 col-md-12 col-sm-12 s10_input_box">
                                     <form>
                                         <div class="form-row">
                                         <div class="col-lg-6 col-md-12 col-sm-12 input_box">
@@ -767,7 +767,7 @@
                                         <a href="#"> APPOINTMENT </a>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 appointment_part">
                                       <div class="s10_imgboxv2">
                                          <img src="/ProiectFinalEnerEdAcademy/assets/asset10.jpg">
                                     </div>

@@ -1,3 +1,9 @@
+@media (max-width: 1535px){
+    .section12_image img{
+        display: none;
+    }
+}
+
 @media (max-width: 1335px){
     .left_triangle{
         display: none;
@@ -11,6 +17,10 @@
     .s5_imgbox{
         position: relative;
         padding-bottom: 100px;
+    }
+
+    .slider_container{
+        left: 45%;
     }
 
     .section3{
@@ -53,6 +63,10 @@
         margin-left: 0;
     }
 
+    .slider_container{
+        left: 45%;
+    }
+
     .s28_cupon_entry{
         flex-flow: column;
         align-content: flex-start;
@@ -83,16 +97,25 @@
 
 }
 
+@media (max-width: 1081px){
+    
+    .slider_container{
+        left: 45%;
+    }
 
-
-
-
+}
 
 
 
 @media (max-width: 991px){
 
+    .col_nopaddingv2_inner{
+        padding: 200px;
+    }
 
+    .appointment_part{
+        display: none;
+    }
 
     .inner_main_header{
         padding-left: 10px;
@@ -117,9 +140,50 @@
     }
 
     .carousel_first_text{ 
-
+        font-size: 17px;
         top: -90px;
     }
+
+    .carousel_second_text{
+        font-size: 30px;
+        width: 100%;
+    }
+
+
+    @keyframes slidetop{
+        from{
+            bottom: -120px;
+            opacity: 0;
+            visibility: hidden;
+        }
+    
+        to{
+            bottom: -35px;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    .carousel_third_text{
+        font-size: 13px;
+    }
+
+    .carousel_button{
+        bottom: -220px;
+    }
+
+    .carousel_button a{
+        transition: .2s ease-in-out;
+        text-decoration: none;
+        border: 1px solid transparent;
+        font-size: 14px;
+        color: white;
+        font-weight: 600;
+        padding: 6px 7px 6px 7px;
+        background-color: aqua;
+    }
+
+
 
     .sector5{
         padding-top: 30px;
@@ -232,6 +296,10 @@
 @media(max-width: 768px) {
 
 
+    .col_nopaddingv2_inner{
+        padding: 45px;
+    }
+
     .inner_main_header{
         display: flex;
         flex-flow: column nowrap;
@@ -258,6 +326,52 @@
         padding-left: 0;
         padding-right: 0;
     }
+
+
+    .carousel_first_text{ 
+        font-size: 15px;
+        top: -90px;
+    }
+
+    .carousel_second_text{
+        font-size: 25px;
+    }
+
+
+    @keyframes slidetop{
+        from{
+            bottom: -120px;
+            opacity: 0;
+            visibility: hidden;
+        }
+    
+        to{
+            bottom: -35px;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    .carousel_third_text{
+        font-size: 13px;
+    }
+
+
+    @keyframes slidetop2{
+        form{
+            bottom: -250px; 
+            left: 0;
+            opacity: 0;
+            visibility: hidden;
+        }
+    
+        to{
+            bottom: -75px;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    
 
     .right_list{
         flex-flow: column;
@@ -336,11 +450,47 @@
 
 
 
+@media(max-width: 588px){
+    .slider_container{
+        top: 75%;
+        left: 55%;
+    }
+
+    .carousel_third_text{
+        display: none;
+    }
+    .carousel_button {
+        display: none;
+    }
 
 
 
 
 @media(max-width: 397px){
+
+    .carousel_prev{
+        height: 15px;
+        width: 15px;
+        background-color: transparent;
+    }
+
+
+    .carousel_next{
+        height: 15px;
+        width: 15px;
+        background-color: transparent;
+    }
+
+
+    .section2{
+        margin-top: 67px;
+    }
+
+    .slider_container{
+        top: 45%;
+        left: 50%;
+    }
+
     .carousel_first_text{ 
         top: -30px;
     }

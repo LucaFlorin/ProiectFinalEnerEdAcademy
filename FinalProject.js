@@ -15,19 +15,14 @@ $(document).ready(function(){
 
     $(window).on("scroll", function() {
         var wscroll  = $(window).scrollTop();
-        if( wscroll > $('.section2').offset().top - 100) {
+        if( wscroll > $('.inner_section1_top').offset().top + 100) {
             $(".inner_section1_bottom").addClass("header_active");
         } else {
            $(".inner_section1_bottom").removeClass("header_active");
         }
     });
 
-    $('.s11v2_button2').click(function(){
-        var imagine = $(this).parent().prev().prev().attr('src'); 
-            $('.image_container').attr('src', imagine);
-                $('.popup').fadeIn(300);
 
-    });
 
     $('.popup').click(function(){
             $('.popup').fadeOut();
@@ -93,12 +88,15 @@ $(document).ready(function(){
 
             $('.burger_menu').click(function(){
                 $('.burger_menu_list').hide();
+                
                     if($(this).hasClass('active_menu')){
                         $(this).next().hide();   
                         $(this).removeClass('active_menu');
                         $('.burger_menu').find('i').css('cssText', 'transform:rotate(0deg); transition: .2s ease-in-out;')
                         $(this).find('i').css('cssText', 'transform:rotate(0deg); transition: .2s ease-in-out;')
-                    }else{
+                        
+                    }
+                    else{
                         $(this).next().fadeIn();
                         $('.burger_menu').removeClass('active_menu');
                         $(this).addClass('active_menu');

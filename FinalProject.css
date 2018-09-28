@@ -215,12 +215,14 @@ ul{
 .inner_section1_bottom{
     width: 100%;
     background-color: #262833;
+    transition: .3s ease-in-out;
 
    
 }
 
 
 .header_active{
+    transition: .3s ease-in-out;
     position: fixed;
     top: 0;
     z-index: 900;
@@ -322,20 +324,22 @@ ul{
 
 
 .s3_input_active{
-    transform: translate(3%, 110%) !important;
+    transform: translate(-100%, 111%) !important;
     visibility: visible !important;
     opacity: 1 !important;
+    transition: .3s ease-in-out;
 }
 
 .s3_input_click_inner{
     position: absolute;
     display: flex;
-    transform: translate(-100%, 350%);
+    transform: translate(-142%, 385%);
     flex-flow: row nowrap;
     align-content: center;
     align-items: center;
     opacity: 0;
     visibility: hidden;
+    transition: .3s ease-in-out;
 }
 
 .s3_input_click_content input{
@@ -546,7 +550,7 @@ ul{
     transition: .2s ease-in-out;
     text-decoration: none;
     border: 1px solid transparent;
-    font-size: 0.8vw;
+    font-size: 16px;
     color: white;
     font-weight: 600;
     padding: 15px 25px 15px 25px;
@@ -732,6 +736,12 @@ ul{
     height: 80px;
     background-color: rgba(255, 255, 255, 0.469);
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.playbutton a{
+    text-decoration: none;
+    position: relative;
 }
 
 .playbutton i{
